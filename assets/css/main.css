@@ -1642,15 +1642,22 @@ section,
   height: 230px;
 }
 
-
 .about-me {
-    text-align: center; /* centra los bloques */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
+
+.about-me h4 {
+  text-align: center;
+}
+
 .about-me p {
   text-align: justify;
 }
 
 .about-me h4::after {
-  left: 0 !important;
-  transform: none !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
 }
