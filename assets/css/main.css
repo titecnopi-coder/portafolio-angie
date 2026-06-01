@@ -1646,3 +1646,11 @@ section,
 .about-me {
     text-align: center; /* centra los bloques */
 }
+.about-me p {
+  text-align: justify;
+}
+
+.about-me h4::after {
+  left: 0 !important;
+  transform: none !important;
+}
