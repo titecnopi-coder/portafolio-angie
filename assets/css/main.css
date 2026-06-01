@@ -1627,3 +1627,13 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.about-photo {
+  max-width: 230px;
+  height: 230px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
