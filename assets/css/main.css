@@ -1642,6 +1642,7 @@ section,
   height: 230px;
 }
 
+
 .about-me {
-  padding-top: 40px;
+    text-align: center; /* centra los bloques */
 }
