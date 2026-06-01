@@ -1661,3 +1661,16 @@ section,
   left: 50% !important;
   transform: translateX(-50%) !important;
 }
+@media (max-width: 768px) {
+  .hero img {
+    object-position: 70% center;
+  }
+
+  .hero h2 {
+    font-size: 42px;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
+}
