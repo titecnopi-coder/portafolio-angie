@@ -1637,3 +1637,11 @@ section,
   display: block;
   margin: 0 auto;
 }
+
+.about-info {
+  height: 230px;
+}
+
+.about-me {
+  padding-top: 40px;
+}
